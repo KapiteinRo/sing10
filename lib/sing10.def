@@ -1,0 +1,7 @@
+LIBRARY sing10.dll
+
+EXPORTS
+
+IonRead			@1
+IonExecute		@2
+IonWrite		@3

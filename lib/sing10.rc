@@ -1,0 +1,31 @@
+#include <windows.h>
+
+VS_VERSION_INFO		VERSIONINFO	MOVEABLE IMPURE LOADONCALL DISCARDABLE
+  FILEVERSION		1,0,0,0
+  PRODUCTVERSION	0,0,0,1
+  FILEFLAGSMASK		VS_FFI_FILEFLAGSMASK
+  FILEFLAGS		0
+  FILEOS		VOS_DOS_WINDOWS32
+  FILETYPE		VFT_DLL
+  FILESUBTYPE		0	// not used
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    //language ID = U.S. English, char set = Windows, Multilingual
+    BEGIN
+      VALUE "FileDescription",	"Sing10 library\0"
+      VALUE "FileVersion",	"1.0.0\0"
+      VALUE "InternalName",	"sing10.dll\0"
+      VALUE "LegalCopyright",	"(C) 2005 Royi Eltink <r.eltink@live.com>\0"
+      VALUE "OriginalFilename",	"sing10.dll\0"
+      VALUE "ProductName",	"sing10\0"
+      VALUE "ProductVersion",	"0.0.1\0"
+      VALUE "Comments","DLL support by Royi Eltink <r.eltink@live.com>\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1252
+  END
+END

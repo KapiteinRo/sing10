@@ -2,9 +2,11 @@
 
 # Object files
 *.obj
+*.res
 
 # Libraries
 *.lib
+*.exp
 
 # Shared objects (inc. Windows DLLs)
 *.dll
